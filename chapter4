@@ -1,0 +1,26 @@
+# Assign numbers to secret and guess
+secret = 7  # Replace with any number between 1 and 10
+guess = 5   # Replace with any number between 1 and 10
+
+# Conditional tests
+if guess < secret:
+    print("too low")
+elif guess > secret:
+    print("too high")
+else:
+    print("just right")
+# Assign values to small and green
+small = True   # Replace with True or False
+green = False  # Replace with True or False
+
+# Identify based on properties
+if small and green:
+    print("pea")
+elif small and not green:
+    print("cherry")
+elif not small and green:
+    print("watermelon")
+else:
+    print("pumpkin")
+print("Surprise! Like that eight-legged green thing that’s right behind you!")
+print("Let’s not summon it back... just kidding!")
